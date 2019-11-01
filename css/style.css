@@ -14,7 +14,7 @@ font-family: 'Roboto Slab', serif;
 }
 
 .header .container{
-    width: 1170px auto;
+    width:  auto;
     margin: 0 auto;
 
 }
@@ -290,7 +290,7 @@ font-family: 'Roboto Slab', serif;
     padding: 120px 0 120px 0;
 
 }
-.veille .container{width: 1170px;
+.veille .container{width: auto;
     margin: 0 auto;
 padding: auto;}
 .veille .section_title{
