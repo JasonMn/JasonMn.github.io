@@ -5,14 +5,16 @@ font-family: 'Roboto Slab', serif;
 */
 
 .header{
-    background: url("../img/AP.png") no-repeat center center fixed;
-    
+    margin: 0;
+    padding: 0;
+    background: url("../img/AP.png") no-repeat center  fixed;
     background-size: cover;
+    
     
 }
 
-.container{
-    width: 1170px;
+.header .container{
+    width: 1170px auto;
     margin: 0 auto;
 
 }
@@ -45,7 +47,7 @@ font-family: 'Roboto Slab', serif;
 }
 
 .header .navbar ul li a{
-    color :#DD810A;
+    color :lightblue;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -57,13 +59,13 @@ font-family: 'Roboto Slab', serif;
 .header .home{
     text-align: center;
     color: aliceblue;
-    margin-top: 205px;
+    margin-top: 175px;
 
 }
 
 .header .home h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:40px;
+    font:30px auto;
     font-weight: 400;
     font-style: italic;
 
@@ -151,8 +153,9 @@ font-family: 'Roboto Slab', serif;
 /*realisation*/
 
 .realisation{
-    padding: 10px 0;
+    padding: 10px 010% 10px 10%;
     background-color:#f7f7f7;
+    
 
     
 }
@@ -284,10 +287,12 @@ font-family: 'Roboto Slab', serif;
 
 /* veille */
 .veille{
-    padding: 120px 0;
+    padding: 120px 0 120px 0;
 
 }
-
+.veille .container{width: 1170px;
+    margin: 0 auto;
+padding: auto;}
 .veille .section_title{
     text-align:center;
 
@@ -332,7 +337,7 @@ font-family: 'Roboto Slab', serif;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#777777;
     font-size: 14px;
-    width: 400px;
+    width: auto;
     margin-left: 70px;
     line-height: 1.4;    
 
@@ -351,6 +356,8 @@ font-family: 'Roboto Slab', serif;
 .veille .info1{
     margin: 0 0 5% 0;
     padding: 0 0 5% 0;
+    
+    
     
     
 }
